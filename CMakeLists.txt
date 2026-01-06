@@ -22,3 +22,9 @@ target_include_directories(
         Factory PUBLIC
         "${PROJECT_SOURCE_DIR}"
 )
+
+add_subdirectory(Abstract)
+target_include_directories(
+        Factory PUBLIC
+        "${PROJECT_SOURCE_DIR}"
+)
