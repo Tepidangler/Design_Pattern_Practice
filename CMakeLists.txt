@@ -33,3 +33,9 @@ target_include_directories(
         Builder PUBLIC
         "${PROJECT_SOURCE_DIR}"
 )
+
+add_subdirectory(Prototype)
+target_include_directories(
+        Prototype PUBLIC
+        "${PROJECT_SOURCE_DIR}"
+)

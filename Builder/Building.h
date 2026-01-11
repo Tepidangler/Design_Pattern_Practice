@@ -4,7 +4,8 @@
 
 #ifndef PRACTICE_BUILDING_H
 #define PRACTICE_BUILDING_H
-#include <cinttypes>
+#include <stdint.h>
+
 
 class Building
 {

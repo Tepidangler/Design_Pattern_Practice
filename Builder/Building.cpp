@@ -5,6 +5,7 @@
 #include "Building.h"
 #include <fmt/format.h>
 
+
 void House::PrintBuildingInfo()
 {
 	fmt::println("Printing House Information: ");
@@ -16,6 +17,7 @@ void House::PrintBuildingInfo()
 	fmt::println("\tStatues?: {}", bHasStatues);
 	fmt::println("\tGarden?: {}", bHasGarden);
 	fmt::println("");
+
 
 }
 
