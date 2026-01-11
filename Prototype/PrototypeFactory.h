@@ -29,7 +29,8 @@ public:
 
 	~PrototypeFactory()
 	{
-		m_Prototypes.clear();
+		delete m_Prototypes[Type::Concrete1];
+		delete m_Prototypes[Type::Concrete2];
 	}
 
 
